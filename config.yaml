@@ -47,6 +47,9 @@ browser:
 code_execution:
   max_tool_calls: 50
   timeout: 300
+auxiliary:
+  compression:
+    context_length: 65536
 compression:
   enabled: true
   protect_first_n: 3
