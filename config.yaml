@@ -75,6 +75,7 @@ memory:
   user_char_limit: 1375
   user_profile_enabled: true
 model:
+  context_length: 65536
   api_key: ollama
   base_url: http://127.0.0.1:11434/v1
   default: qwen3:14b
