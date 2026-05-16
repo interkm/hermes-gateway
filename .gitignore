@@ -1,0 +1,63 @@
+# 민감 정보
+.env
+auth.lock
+gateway.lock
+gateway.pid
+
+# 개인 데이터
+sessions/
+memories/
+logs/
+cron/
+pairing/
+sandboxes/
+
+# 캐시/런타임
+cache/
+audio_cache/
+image_cache/
+node/
+bin/
+*.db
+*.db-shm
+*.db-wal
+gateway_state.json
+channel_directory.json
+context_length_cache.yaml
+interrupt_debug.log
+.hermes_history
+.update_check
+.skills_prompt_snapshot.json
+
+# 프레임워크 (NousResearch 소유)
+hermes-agent/
+
+# 번들 스킬 (hermes-agent 내부)
+skills/apple/
+skills/autonomous-ai-agents/
+skills/creative/
+skills/data-science/
+skills/devops/
+skills/diagramming/
+skills/dogfood/
+skills/domain/
+skills/email/
+skills/gaming/
+skills/gifs/
+skills/github/
+skills/inference-sh/
+skills/mcp/
+skills/media/
+skills/mlops/
+skills/note-taking/
+skills/productivity/
+skills/red-teaming/
+skills/research/
+skills/smart-home/
+skills/social-media/
+skills/software-development/
+skills/yuanbao/
+skills/.bundled_manifest
+skills/.curator_state
+skills/.usage.json
+skills/.usage.json.lock
